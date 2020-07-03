@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[print location :London]]>
+    </line>
+    <line>
+      <![CDATA[print passengers :London]]>
+    </line>
+    <line>
+      <![CDATA[print from date :July]]>
+    </line>
+    <line>
+      <![CDATA[print todate :November]]>
+    </line>
+    <line>
+      <![CDATA[click on flights]]>
+    </line>
+    <line>
+      <![CDATA[click on reserve flights]]>
+    </line>
+    <line>
+      <![CDATA[print card no:12344666]]>
+    </line>
+    <line>
+      <![CDATA[select card type :American Express]]>
+    </line>
+    <line>
+      <![CDATA[print expiry date:12]]>
+    </line>
+    <line>
+      <![CDATA[print name:pradeep]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="96823" started-at="2020-06-19T06:16:50Z" finished-at="2020-06-19T06:18:27Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="96823" started-at="2020-06-19T06:16:50Z" finished-at="2020-06-19T06:18:27Z">
+      <class name="com.testcases.Testcase4">
+        <test-method status="PASS" signature="testCardType()[pri:0, instance:com.testcases.Testcase4@5bcab519]" name="testCardType" duration-ms="16275" started-at="2020-06-19T07:17:44Z" finished-at="2020-06-19T07:18:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[print card no:12344666]]>
+            </line>
+            <line>
+              <![CDATA[select card type :American Express]]>
+            </line>
+            <line>
+              <![CDATA[print expiry date:12]]>
+            </line>
+            <line>
+              <![CDATA[print name:pradeep]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCardType -->
+      </class> <!-- com.testcases.Testcase4 -->
+      <class name="com.testcases.Testcase5">
+        <test-method status="PASS" signature="testBillingadress()[pri:0, instance:com.testcases.Testcase5@e45f292]" name="testBillingadress" duration-ms="9384" started-at="2020-06-19T07:18:00Z" finished-at="2020-06-19T07:18:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBillingadress -->
+      </class> <!-- com.testcases.Testcase5 -->
+      <class name="com.testcases.Testcase6">
+        <test-method status="PASS" signature="deliveryclass()[pri:0, instance:com.testcases.Testcase6@5f2108b5]" name="deliveryclass" duration-ms="16293" started-at="2020-06-19T07:18:09Z" finished-at="2020-06-19T07:18:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deliveryclass -->
+      </class> <!-- com.testcases.Testcase6 -->
+      <class name="com.testcases.Setupclass">
+        <test-method status="PASS" signature="launchlogin()[pri:0, instance:com.testcases.Setupclass@7085bdee]" name="launchlogin" is-config="true" duration-ms="18418" started-at="2020-06-19T07:16:50Z" finished-at="2020-06-19T07:17:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchlogin -->
+        <test-method status="PASS" signature="samplemethod()[pri:0, instance:com.testcases.Setupclass@7085bdee]" name="samplemethod" duration-ms="6" started-at="2020-06-19T07:17:08Z" finished-at="2020-06-19T07:17:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- samplemethod -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:com.testcases.Setupclass@7085bdee]" name="closeTheBrowser" is-config="true" duration-ms="1038" started-at="2020-06-19T07:18:26Z" finished-at="2020-06-19T07:18:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- com.testcases.Setupclass -->
+      <class name="com.testcases.Testcase1">
+        <test-method status="PASS" signature="testflow()[pri:0, instance:com.testcases.Testcase1@1ce92674]" name="testflow" duration-ms="13481" started-at="2020-06-19T07:17:08Z" finished-at="2020-06-19T07:17:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testflow -->
+      </class> <!-- com.testcases.Testcase1 -->
+      <class name="com.testcases.Testcase2">
+        <test-method status="PASS" signature="testFlightdetailsflow()[pri:0, instance:com.testcases.Testcase2@5700d6b1]" name="testFlightdetailsflow" duration-ms="21029" started-at="2020-06-19T07:17:22Z" finished-at="2020-06-19T07:17:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[print location :London]]>
+            </line>
+            <line>
+              <![CDATA[print passengers :London]]>
+            </line>
+            <line>
+              <![CDATA[print from date :July]]>
+            </line>
+            <line>
+              <![CDATA[print todate :November]]>
+            </line>
+            <line>
+              <![CDATA[click on flights]]>
+            </line>
+            <line>
+              <![CDATA[click on reserve flights]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testFlightdetailsflow -->
+      </class> <!-- com.testcases.Testcase2 -->
+      <class name="com.testcases.Testcase3">
+        <test-method status="PASS" signature="testPassengersClass()[pri:0, instance:com.testcases.Testcase3@6fd02e5]" name="testPassengersClass" duration-ms="854" started-at="2020-06-19T07:17:43Z" finished-at="2020-06-19T07:17:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPassengersClass -->
+      </class> <!-- com.testcases.Testcase3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
